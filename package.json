@@ -22,6 +22,8 @@
     "eslint-loader": "^1.2.1",
     "eslint-plugin-react": "^3.16.1",
     "express": "^4.13.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
     "npm-install-webpack-plugin": "^2.0.2",
     "postcss-loader": "^0.8.0",
     "precss": "^1.4.0",
@@ -34,9 +36,11 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "babel-runtime": "^6.3.19",
+    "file-loader": "^0.11.2",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-redux": "^4.0.6",
-    "redux": "^3.0.6"
+    "redux": "^3.0.6",
+    "url-loader": "^0.5.9"
   }
 }
