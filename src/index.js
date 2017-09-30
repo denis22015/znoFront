@@ -1,11 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 //import { Provider } from 'react-redux'
-import App from './containers/App'
-import './styles/app.css'
-import './../vendor/font-awesome/css/font-awesome.min.css'
-import './../vendor/bootstrap/css/bootstrap.min.css'
-
+import StartPage from './containers/StartPage'
+import { BrowserRouter } from 'react-router-dom';
 
 //import './styles/app.css'
 //import configureStore from './store/configureStore'
@@ -13,8 +10,8 @@ import './../vendor/bootstrap/css/bootstrap.min.css'
 //const store = configureStore()
 
 render(
-    <div >
-      <App />
-    </div>,
+    <BrowserRouter >
+      <StartPage />
+    </BrowserRouter>,
   document.getElementById('root')
 )
