@@ -29,7 +29,7 @@ import './../styles/grayscale.css'
 export default class StartPage extends Component {
   render() {
     return(
-		<div>
+    	<div>
 			<Header />
 			<Intro />
 			<About />
@@ -45,9 +45,15 @@ export default class StartPage extends Component {
 
 
 //import js files
-require('../js/jquery.min.js');
-// import '../js/jquery.min.js'
-// import '../js/popper.min.js'
-// import '../js/bootstrap.min.js'
-// import '../js/jquery.easing.min.js'
+// require('script-loader!../js/jquery.min.js');
+// require('script-loader!../js/popper.js');
+// require('script-loader!../js/bootstrap.min.js');
+// require('script-loader!../js/jquery.easing.min.js');
+
+
+// import 'script-loader!../js/jquery.min.js'
+// //import 'script-loader!../js/popper.js'
+// import 'script-loader!../js/bootstrap.min.js'
+// import 'script-loader!../js/jquery.easing.min.js'
+// // import '../js/jquery.easing.min.js'
 //import '../js/grayscale.min.js'

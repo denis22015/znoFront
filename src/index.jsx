@@ -1,5 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
+
 //import { Provider } from 'react-redux'
 import StartPage from './containers/StartPage.jsx'
 import { BrowserRouter } from 'react-router-dom';
@@ -10,8 +11,8 @@ import { BrowserRouter } from 'react-router-dom';
 //const store = configureStore()
 
 render(
-    <BrowserRouter >
-      <StartPage />
-    </BrowserRouter>,
-  document.getElementById('root')
+	    <BrowserRouter >
+	    	<StartPage />
+	    </BrowserRouter>,
+  document.getElementById('page-top')
 )
